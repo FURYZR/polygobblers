@@ -13,7 +13,7 @@ import { abi } from '../contract-abi';
 import FlipCard, { BackCard, FrontCard } from '../components/FlipCard';
 
 const contractConfig = {
-  address: '0x86fbbb1254c39602a7b067d5ae7e5c2bdfd61a30',
+  address: '0x7320b71d19428e920fC0232efe8df89492061fd8',
   abi,
 };
 
@@ -64,7 +64,7 @@ const Home: NextPage = () => {
       <div className="container">
         <div style={{ flex: '1 1 auto' }}>
           <div style={{ padding: '24px 24px 24px 0' }}>
-            <h1>NFT Demo Mint</h1>
+            <h1>PolyGobblers</h1>
             <p style={{ margin: '12px 0 24px' }}>
               {totalMinted} minted so far!
             </p>
@@ -106,9 +106,9 @@ const Home: NextPage = () => {
                 src="/nft.png"
                 width="500"
                 height="500"
-                alt="RainbowKit Demo NFT"
+                alt="PolyGobblers NFT"
               />
-              <h1 style={{ marginTop: 24 }}>Rainbow NFT</h1>
+              <h1 style={{ marginTop: 24 }}>PolyGobblers NFT</h1>
               <ConnectButton />
             </FrontCard>
             <BackCard isCardFlipped={isMinted}>
@@ -117,7 +117,7 @@ const Home: NextPage = () => {
                   src="/nft.png"
                   width="80"
                   height="80"
-                  alt="RainbowKit Demo NFT"
+                  alt="PolyGobblers NFT"
                   style={{ borderRadius: 8 }}
                 />
                 <h2 style={{ marginTop: 24, marginBottom: 6 }}>NFT Minted!</h2>
